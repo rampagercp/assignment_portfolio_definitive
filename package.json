@@ -1,0 +1,14 @@
+{
+  "name": "clear",
+  "version": "0.0.1",
+  "description": "Assignment 1 Portfolio Project",
+  "main": "index.js",
+  "author": "Rodrigo Pacheco",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1"
+  }
+}
