@@ -12,8 +12,7 @@
 <link rel="stylesheet" href="/Content/app.css">
 <body>
   <!-- NAVIGATION SECTION-->
- <%- include('./components/header.ejs') %>
- <header></header>
+  <header> <%- include('./components/header.ejs') %> </header>
     
     <div class="container">
       <h2>Welcome to my <%= title %> page!</h2>
@@ -23,7 +22,7 @@
 
 <!--BOTTOM NAVBAR-->
 
-<%- include('./components/footer.ejs') %>
+  <footer> <%- include('./components/footer.ejs') %> </footer>
 
 <!-- JS SECTION -->
 <script src="/jquery/dist/jquery.min.js"></script>

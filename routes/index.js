@@ -16,10 +16,10 @@ router.get('/about', function (req, res, next) {
     res.render('index', { title: 'About Me', page: 'home' });
 });
 router.get('/projects', function (req, res, next) {
-    res.render('index', { title: 'My Projects', page: 'projects' });
+    res.render('index', { title: 'Projects', page: 'projects' });
 });
 router.get('/services', function (req, res, next) {
-    res.render('index', { title: 'My Services', page: 'services' });
+    res.render('index', { title: 'Services', page: 'services' });
 });
 router.get('/contact', function (req, res, next) {
     res.render('index', { title: 'Contact', page: 'contact' });
