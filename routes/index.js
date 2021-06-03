@@ -10,18 +10,18 @@ router.get('/', function (req, res, next) {
     res.render('index', { title: 'Home' });
 });
 router.get('/home', function (req, res, next) {
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    res.render('index', { title: 'About' });
+    res.render('index', { title: 'About Me', page: 'home' });
 });
 router.get('/projects', function (req, res, next) {
-    res.render('index', { title: 'Projects' });
+    res.render('index', { title: 'My Projects', page: 'projects' });
 });
 router.get('/services', function (req, res, next) {
-    res.render('index', { title: 'Services' });
+    res.render('index', { title: 'My Services', page: 'services' });
 });
 router.get('/contact', function (req, res, next) {
-    res.render('index', { title: 'Contact' });
+    res.render('index', { title: 'Contact', page: 'contact' });
 });
 //# sourceMappingURL=index.js.map
