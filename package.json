@@ -1,7 +1,12 @@
 {
   "name": "assignment-portfolio-definitive",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "private": true,
+  "description": "Portfolio Assignment Project",
+  "main": "index.js",
+  "repository": "https://github.com/rampagercp/assignment_portfolio_definitive",
+  "author": "Rodrigo Pacheco",
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
